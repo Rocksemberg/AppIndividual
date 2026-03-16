@@ -5,14 +5,10 @@ plugins {
 
 android {
     namespace = "com.example.appindividual"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.appindividual"
+        applicationId = "com.rosemberg.appindividual.final"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
